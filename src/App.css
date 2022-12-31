@@ -1,0 +1,56 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.Todo-list {
+    background-color: rgb(191, 190, 190);
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    padding: 15px;
+}
+
+.Header {
+
+}
+
+.input-button {
+    color: white;
+    background-color: blue;
+    padding: 8px;
+    border: none;
+    margin-left: 2px;
+    border-radius: 4px;
+}
+
+.todo-item-button {
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+input {
+    padding: 6px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+   
+}
+.todo-item > li {
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.mark-all {
+    margin-top: 30px;
+}
